@@ -1,4 +1,17 @@
-#root {
+.home-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+body {
+  background-color: black;
+}
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +52,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
