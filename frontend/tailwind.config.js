@@ -1,4 +1,12 @@
+// tailwind.config.js
 module.exports = {
-    darkMode: 'class', // class-based dark mode
-    // other config...
-  }
+  darkMode: 'class',
+  theme: {
+    extend: {
+      fontFamily: {
+        custom: ['MyCustomFont', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [],
+};
